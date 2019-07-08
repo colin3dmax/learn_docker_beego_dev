@@ -7,10 +7,10 @@ RUN go get -u -v github.com/beego/bee
 
 
 # ADD . .
-VOLUME "src/a_beego"
+VOLUME "src/beego_02"
 
-WORKDIR $GOPATH/src/a_beego
-RUN ls $GOPATH/src/a_beego
+WORKDIR $GOPATH/src/beego_02
+RUN ls $GOPATH/src/beego_02
 EXPOSE 8080
 
 # RUN go build main.go

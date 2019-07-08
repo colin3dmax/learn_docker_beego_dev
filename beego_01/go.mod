@@ -1,4 +1,4 @@
-module a_beego
+module beego_01
 
 go 1.12
 

@@ -9,7 +9,7 @@ ADD go.mod .
 ADD go.sum .
 RUN go mod download
 
-WORKDIR /a_beego
+WORKDIR /beego_01
 ADD . .
 
 EXPOSE 8080
