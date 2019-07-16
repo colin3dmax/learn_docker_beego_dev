@@ -1,6 +1,6 @@
 FROM golang
 
-ENV GOPROXY https://athens.azurefd.net
+ENV GOPROXY https://mirrors.aliyun.com/goproxy/
 
 RUN go get -u -v github.com/astaxie/beego
 RUN go get -u -v github.com/beego/bee

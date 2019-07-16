@@ -1,6 +1,6 @@
 FROM golang:1.12 as build
 
-ENV GOPROXY https://athens.azurefd.net
+ENV GOPROXY https://mirrors.aliyun.com/goproxy/
 ENV GO111MODULE on
 
 WORKDIR $GOPATH/cache
